@@ -1,0 +1,32 @@
+Patorn Pongsanit
+4. 
+
+1. Login - there will be a login window at the beginning of the web application. 
+Members in Meals On Wheels organization, new volunteers and customers are able to 
+use their login credentials to sign in. New volunteers and customers will be able to sign up.
+
+2. Schedule - Volunteers and customers are able to see the schedule of meal deliveries. 
+In the schedule, names of the volunteers will be displayed associated with the times of 
+delivery of the meals. 
+
+3. Instruction list - instructions for each volunteer will be displayed. The instructions 
+will include specific information on how to handle each delivery. The volunteer will know 
+exacttly what to do because the instruction list will display step by step points on how to 
+proceed in the delivery of the meals.
+
+4. Map - the map will show directions to the address of the customer for each food delivery.
+Volunteers will use the map to ensure that they are going to the correct location. 
+
+5.
+
+1. Usabaility - user interface will be clear and easy to use. There will be limits to the 
+use of flashy and distracting colors. Navigation will be clear from point a to point b.
+
+2. Accessibility - users will be able to access the application via web browser either from 
+their desktop to mobile smart phone device.
+
+3. Storage - names of volunteers and their delivery times will be stored. Login credentials
+ of users will be stored as well.
+
+4. Performance - fast and responsive web application.
+
