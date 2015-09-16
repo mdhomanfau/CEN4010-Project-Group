@@ -2,27 +2,8 @@ CEN	4010
 Principles of	Software Engineering 
 Team Project Proposal and Description
 
-Lets try to be finished by Saturday Midnight 9/12/2015 11:59pm
 
-
-1 - Paul
-
-2 - Michael Dhoman
-
-3 - Michael Brown
-
-4 - Patorn
-
-5 - Patorn
-
-6 - Paul
-
-7 - Michael Dhoman
-
-8 - 
-
-
-
+--------------------------------------------------------------------------------
 
 1. Executive Summary
 	The purpose of our project is to develop a professional website/mobile app that will assist Meals On Wheels Palm Beach in delivering meals to clients throughout Palm Beach County.  Managing a large delivery network with hundreds of volunteers and clients is a huge task.  Someone needs to keep track of all the clients and volunteers and map out the entire delivery route for each delivery.  Without the help of software, these tasks can take a lot of effort.  Our project is called %PROJECT_NAME%.  %PROJECT_NAME% will help automate those processes and make managing a network of delivery volunteers easy and efficient.  In a general sense, the project is useful in two ways.  
@@ -30,8 +11,32 @@ Lets try to be finished by Saturday Midnight 9/12/2015 11:59pm
 	Second, %PROJECT_NAME% will act like a personal assistant for volunteers on delivery routes.  Volunteers can log into %PROJECT_NAME% to view and manage their volunteer schedule instantly.  Using the internet connection on their smartphone, tablet, or computer, they can see their personal delivery route on a particular day.  %PROJECT_NAME% will display routes on an interactive, visually appealing map and provide a list of directions for volunteers in sequential order.  At each stop on their route, volunteers will be able to see and add important information about the clients they are visiting.
 
 
+--------------------------------------------------------------------------------
 
-6. System Development Infrastructure
+2 - Michael Dhoman
+
+
+--------------------------------------------------------------------------------
+
+3 - Michael Brown
+
+
+
+
+--------------------------------------------------------------------------------
+
+4 - Patorn
+
+
+--------------------------------------------------------------------------------
+
+5 - Patorn
+
+
+--------------------------------------------------------------------------------
+
+6 - System Development Infrastructure
+
 Development:
 -%PRODUCT_NAME% is being developed using IBM Bluemix
 -Source Control through GitHub and Jazz
@@ -51,3 +56,21 @@ Mobile App:
 	-Using the IBM Mobile Data SDK
 	-Compiled using Apache Cordova
 	-Supported in Android, iOS, and Windows Phone
+	
+--------------------------------------------------------------------------------
+
+7 - Team Members 
+
+
+Michael Dhoman - Scum Master
+Patorn Pongsanit - Product Owner
+Michael Brown - Developer
+Paul Morris - Developer
+
+--------------------------------------------------------------------------------
+
+8 - 
+
+
+
+--------------------------------------------------------------------------------
