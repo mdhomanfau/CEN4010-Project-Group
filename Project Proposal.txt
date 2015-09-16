@@ -6,8 +6,11 @@ Team Project Proposal and Description
 --------------------------------------------------------------------------------
 
 1. Executive Summary
+
 	The purpose of our project is to develop a professional website/mobile app that will assist Meals On Wheels Palm Beach in delivering meals to clients throughout Palm Beach County.  Managing a large delivery network with hundreds of volunteers and clients is a huge task.  Someone needs to keep track of all the clients and volunteers and map out the entire delivery route for each delivery.  Without the help of software, these tasks can take a lot of effort.  Our project is called %PROJECT_NAME%.  %PROJECT_NAME% will help automate those processes and make managing a network of delivery volunteers easy and efficient.  In a general sense, the project is useful in two ways.  
+	
 	First, %PROJECT_NAME% will make managing a delivery network easier by automating the route planning process.  Using %PROJECT_NAME%, an administrator will be able to quickly view and update records for locations on the delivery route(s), as well as records of volunteers and when they are available.  Since those records will be stored on the IBM cloud, they are available anywhere, anytime, and they are always up to date.  %PROJECT_NAME% will use those records to automatically generate efficient deliver routes that minimize the distances volunteers travel to visit all their destinations.  Just like the records, the routes are stored on the cloud, so they are always available and up to date.  Most importantly, efficient routes save valuable time and money.
+	
 	Second, %PROJECT_NAME% will act like a personal assistant for volunteers on delivery routes.  Volunteers can log into %PROJECT_NAME% to view and manage their volunteer schedule instantly.  Using the internet connection on their smartphone, tablet, or computer, they can see their personal delivery route on a particular day.  %PROJECT_NAME% will display routes on an interactive, visually appealing map and provide a list of directions for volunteers in sequential order.  At each stop on their route, volunteers will be able to see and add important information about the clients they are visiting.
 
 
@@ -25,12 +28,39 @@ Team Project Proposal and Description
 
 --------------------------------------------------------------------------------
 
-4 - Patorn
+4 - Initial list of high-level functional requirements
 
+	1. Login - there will be a login window at the beginning of the web application. 
+	Members in Meals On Wheels organization, new volunteers and customers are able to 
+	use their login credentials to sign in. New volunteers and customers will be able to sign up.
+
+	2. Schedule - Volunteers and customers are able to see the schedule of meal deliveries. 
+	In the schedule, names of the volunteers will be displayed associated with the times of 
+	delivery of the meals. 
+
+	3. Instruction list - instructions for each volunteer will be displayed. The instructions 
+	will include specific information on how to handle each delivery. The volunteer will know 
+	exacttly what to do because the instruction list will display step by step points on how to 
+	proceed in the delivery of the meals.
+
+	4. Map - the map will show directions to the address of the customer for each food delivery.
+	Volunteers will use the map to ensure that they are going to the correct location. 
 
 --------------------------------------------------------------------------------
 
-5 - Patorn
+5 - List of non-functional requirements
+
+
+	1. Usabaility - user interface will be clear and easy to use. There will be limits to the 
+	use of flashy and distracting colors. Navigation will be clear from point a to point b.
+
+	2. Accessibility - users will be able to access the application via web browser either from 
+	their desktop to mobile smart phone device.
+
+	3. Storage - names of volunteers and their delivery times will be stored. Login credentials
+ 	of users will be stored as well.
+
+	4. Performance - fast and responsive web application.
 
 
 --------------------------------------------------------------------------------
@@ -38,16 +68,18 @@ Team Project Proposal and Description
 6 - System Development Infrastructure
 
 Development:
--%PRODUCT_NAME% is being developed using IBM Bluemix
--Source Control through GitHub and Jazz
+	-%PRODUCT_NAME% is being developed using IBM Bluemix
+	-Source Control through GitHub and Jazz
+	
 Backend:
 	-Server-side code written with the IBM SDK for Node.js
 	-Database: mongoDB
+	
 Website:
 	-HTML/CSS
 	-Javascript
 	-Supported in latest versions of Chrome, Firefox, and Safari
-Maps and map data will be acquired/displayed using the Google Maps API
+		Maps and map data will be acquired/displayed using the Google Maps API
 
 [OPTIONAL DO WE WANT THIS IN THE INITIAL PROPOSAL?]
 Mobile App:
@@ -61,11 +93,10 @@ Mobile App:
 
 7 - Team Members 
 
-
-Michael Dhoman - Scum Master
-Patorn Pongsanit - Product Owner
-Michael Brown - Developer
-Paul Morris - Developer
+	Michael Dhoman - Scum Master
+	Patorn Pongsanit - Product Owner
+	Michael Brown - Developer
+	Paul Morris - Developer
 
 --------------------------------------------------------------------------------
 
