@@ -79,10 +79,9 @@ Website:
 	-HTML/CSS
 	-Javascript
 	-Supported in latest versions of Chrome, Firefox, and Safari
-		Maps and map data will be acquired/displayed using the Google Maps API
+	-Maps and map data will be acquired/displayed using the Google Maps API
 
-[OPTIONAL DO WE WANT THIS IN THE INITIAL PROPOSAL?]
-Mobile App:
+Mobile:
 	-UI Written in HTML/CSS
 	-Javascript
 	-Using the IBM Mobile Data SDK
