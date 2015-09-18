@@ -18,13 +18,17 @@ Team Project Proposal and Description
 
 2 - Michael Dhoman
 
+In DOCX file
 
 --------------------------------------------------------------------------------
 
-3 - Michael Brown
+
+Section 3: Overview and scenarios
+
+When volunteers wish to check personal schedules or current routes we seek to enable them via mobile interfaces: namely a web-presence or native mobile application.  The proposed user interface should be as parsimonious as possible so that ambient technological skill will not interfere with user experience. In considering these platforms, we note it would be advantageous to use a mobile application because the routing algorithm can interface with Google Maps or other similar API so that routes can be easily navigated via cellular GPS.
 
 
-
+A typical use case would be as follows:  Meals on Wheels would first acquire an additional volunteer willing to provide support for their cause. The user may lack technical skills but presumably has access to technology, preferably a smart phone.  The volunteer would then download and install the mobile application and sign up for an account [or use account-interfaced automata for registration].  The application must be intuitive and easy to follow.  After being brought to the splash screen, the interface will be similar to a calendar or a task log providing the days and times that the volunteer has agreed to work.  When the user selects a particular day, potential drop off locations will be displayed in a list or graphical format. Finally, the touch of a button will provide navigation instructions for optimal routing to access the drop locations.  Once a meal is delivered, the volunteer will check off that location virtually and the GPS will automatically navigate the user to the next location.
 
 --------------------------------------------------------------------------------
 
