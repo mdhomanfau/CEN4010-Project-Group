@@ -70,11 +70,12 @@ function initDBConnection() {
 		// Variables section for an app in the Bluemix console dashboard).
 		// Alternately you could point to a local database here instead of a 
 		// Bluemix service.
-		//dbCredentials.host = "REPLACE ME";
-		//dbCredentials.port = REPLACE ME;
-		//dbCredentials.user = "REPLACE ME";
-		//dbCredentials.password = "REPLACE ME";
-		//dbCredentials.url = "REPLACE ME";
+		dbCredentials.host = "96f22ee7-7caa-4200-a5dd-34589712ec03-bluemix.cloudant.com";
+		dbCredentials.port = 443;
+		dbCredentials.user = "96f22ee7-7caa-4200-a5dd-34589712ec03-bluemix";
+		dbCredentials.password = "eaba504536b80b1f883d865b5b2a6e733132c2d4c74103fdd608b787f38584c4";
+		dbCredentials.url = "https://96f22ee7-7caa-4200-a5dd-34589712ec03-bluemix:eaba504536b80b1f883d865b5b2a6e733132c2d4c74103fdd608b787f38584c4@96f22ee7-7caa-4200-a5dd-34589712ec03-bluemix.cloudant.com";
+		cloudant = require('cloudant')(dbCredentials.url);
 	}
 }
 
@@ -291,6 +292,31 @@ app.put('/api/favorites', function(request, response) {
 			});
 		}
 	});
+});
+
+app.put('/api/users', function(request, response) {
+    console.log("Get users invoked");
+    db = cloudant.use('users');
+	var id = request.body.id;
+	var user = request.body.username;
+	var pass = request.body.password;
+    console.log(request.body);
+	db.get(id, {revs_info: true}, function(err, doc){
+		if(!err){
+			if(doc['password'] && doc.password === pass)
+			{
+				console.log("success. TODO: log in user");
+			}
+			else
+			{
+				console.log("error"+doc+"!="+pass);
+			}
+		}
+        else
+        {
+            console.log("error: username not found")
+        }
+	})
 });
 
 app.get('/api/favorites', function(request, response) {
